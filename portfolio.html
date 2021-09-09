@@ -31,9 +31,20 @@
                     </ul>
                 </nav>
                 <ul class="connection">
-                    <li class="header-item"><a href="mailto:info@devstudio.com ">info@devstudio.com</a></li>
-                    <li class="header-item"><a href="tel:+380961111111">+380961111111</a></li>
-        
+                    <li class="header-item">
+                        <svg class="envelope header-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-envelope-hover-1"></use>
+                        </svg>
+                        <a href="mailto:info@devstudio.com ">info@devstudio.com</a>
+                
+                    </li>
+                    <li class="header-item">
+                        <svg class="smarthfone header-icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone-1"></use>
+                        </svg>
+                        <a href="tel:+380961111111">+380961111111</a>
+                    </li>
+                
                 </ul>
         
             </div>
@@ -62,7 +73,7 @@
                     <p></p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-photo"src="./images/basketball.jpg" width="370" height="294" alt="Баскетбол">
+                    <img class="portfolio-photo" src="./images/basketball.jpg" width="370" height="294" alt="Баскетбол">
                     <div class="portfolio-contect-desctiption">
                         <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
                         <p class="project-text">Дизайн</p>
@@ -70,7 +81,7 @@
                     <p></p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-photo"src="./images/restaurant.jpg" width="370" height="294" alt="Ресторан">
+                    <img class="portfolio-photo" src="./images/restaurant.jpg" width="370" height="294" alt="Ресторан">
                     <div class="portfolio-contect-desctiption">
                         <h2 class="projects-title">Ресторан Seafood</h2>
                         <p class="project-text">Приложение</p>
@@ -78,7 +89,7 @@
                     <p></p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-photo"src="./images/beats.jpg" width="370" height="294" alt="Наушники">
+                    <img class="portfolio-photo" src="./images/beats.jpg" width="370" height="294" alt="Наушники">
                     
                     <div class="portfolio-contect-desctiption">
                     <h2 class="projects-title">Проект Prime</h2>
@@ -95,7 +106,7 @@
                     <p></p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-photo"src="./images/monitor.jpg" width="370" height="294" alt="Монитор">
+                    <img class="portfolio-photo" src="./images/monitor.jpg" width="370" height="294" alt="Монитор">
                     <div class="portfolio-contect-desctiption">
                     <h2 class="projects-title">Inspiration has no Borders</h2>
                     <p class="project-text">Веб-сайт</p>
@@ -103,7 +114,7 @@
                     <p></p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-photo"src="./images/book.jpg" width="370" height="294" alt="Книга">
+                    <img class="portfolio-photo" src="./images/book.jpg" width="370" height="294" alt="Книга">
                     <div class="portfolio-contect-desctiption">
                     <h2 class="projects-title">Издание Limited Edition</h2>
                     <p class="project-text">Дизайн</p>
@@ -111,7 +122,7 @@
                     <p></p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-photo"src="./images/tag.jpg" width="370" height="294" alt="Этикетка">
+                    <img class="portfolio-photo" src="./images/tag.jpg" width="370" height="294" alt="Этикетка">
                     <div class="portfolio-contect-desctiption">
                     <h2 class="projects-title">Проект LAB</h2>
                     <p class="project-text">Маркетинг</p>
@@ -119,7 +130,7 @@
                     <p></p>
                 </li>
                 <li class="portfolio-item">
-                    <img class="portfolio-photo"src="./images/laptop.jpg" width="370" height="294" alt="Ноутбук">
+                    <img class="portfolio-photo" src="./images/laptop.jpg" width="370" height="294" alt="Ноутбук">
                     <div class="portfolio-contect-desctiption">
                     <h2 class="projects-title">Growing Business</h2>
                     <p class="project-text">Приложение</p>
@@ -146,17 +157,54 @@
     <!--footer-->
 
     <footer class="footer">
-        <div class="container footer-container">
-            <a href="./index.html" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
-            <address class="address-info">
-                <p class="address">г. Киев, пр-т Леси Украинки, 26 </p>
-                <ul class="footer-connection">
-                    <li class="connection-item"><a href="mailto:info@devstudio.com ">info@devstudio.com</a></li>
-                    <li class="connection-item phone"><a href="tel:+380961111111">+380961111111</a></li>
+        <div class="container footer-general-container">
+            <div class="footer-container">
+                <a href="./index.html" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
+                <address class="address-info">
+                    <p class="address">г. Киев, пр-т Леси Украинки, 26 </p>
+                    <ul class="footer-connection">
+                        <li class="connection-item"><a href="mailto:info@devstudio.com ">info@devstudio.com</a></li>
+                        <li class="connection-item phone"><a href="tel:+380961111111">+380961111111</a></li>
     
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-link-container">
+                <h3 class="footer-connect">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                <ul class="social-links">
+                    <li class="link-icon">
+                        <a class="social-link" href="">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram-2-1"></use>
+                            </svg>
+                        </a>
+    
+                    </li>
+                    <li class="link-icon">
+                        <a class="social-link" href="">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter-1-1"></use>
+                            </svg>
+                        </a>
+    
+                    </li>
+                    <li class="link-icon">
+                        <a class="social-link" href=""><svg class="social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook-1-1"></use>
+                            </svg>
+                        </a>
+    
+                    </li>
+                    <li class="link-icon">
+                        <a class="social-link" href="">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                            </svg>
+                        </a>
+    
+                    </li>
                 </ul>
-    
-            </address>
+            </div>
         </div>
     
     
