@@ -216,21 +216,30 @@ color: var(--secondary-text-color);
 .advantages-container {
   display: flex;
   align-items: center;
-  justify-self: center;
-
+  justify-content: center;
 }
 
+.advantage-block {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+    align-items: center;
+  justify-content: center;
+  
 
+}
 
 .advantages-list {
   display: flex;
 }
 
 
-
 .advantage-item:not(:last-child) {
 margin-right: 30px;
 }
+
 
 
 .title {
@@ -245,14 +254,7 @@ text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 
-.advantage-icon {
-  background-size: contain;
-  background-color: #F5F4FA;
-  height: 120px;
-  width: 270px;
-  padding: 25px 100px;
-  margin-bottom: 30px;
-}
+
 
 
 /* Services */
@@ -376,20 +378,18 @@ cursor: pointer;
 /* clients */
 
 .client-section {
-    padding-bottom: 94px;
+padding-bottom: 94px;
 }
 
 .client-container {
-    align-items: center; 
-    margin-top: 50px;   
-    margin-bottom: 94px;
+padding: 0;
+margin-top: 50px;   
+margin-bottom: 94px;
 }
 
-.client-title {
-  display: block;
-  }
 
-.section-link {  
+
+.client-icon {  
   justify-content: center;
   align-items: center;  
   display: flex;
@@ -403,26 +403,38 @@ cursor: pointer;
 .client-list {
   display: flex;
   align-items: center;
-  justify-content: center;
-  
-  
+  justify-content: center;   
 }
+
 
 .client-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-icon {
-  align-content: center;
-  
+
+.client-icon {  
+  fill: #AFB1B8;
 }
 
-.section-link:hover, .client-icon
-.section-link:focus .client-icon {
+.client-icon:hover ,
+.client-icon:focus {
+  fill: var(--accent-color);
+  border: var(--accent-color) solid 1px
+}
+
+/* .client-icon:hover,
+.client-icon:focus {
+fill: var(--accent-color);
+border: red solid 1px;
+}  */
+
+
+/* .client-block a:hover, .client-icon
+.client-block a:focus .client-icon {
   fill: var(--accent-color);
   cursor: pointer;
   
-}
+} */
 
 /* footer */
 .footer {
@@ -488,10 +500,9 @@ text-transform: uppercase;
 color: var(--accent-second-color);
 }
 
-.footer-container{
+.footer-container {
   padding-right: 70px;
   
-
 }
 
 
